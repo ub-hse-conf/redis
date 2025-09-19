@@ -45,6 +45,7 @@ services:
 
 networks:
   redis-net:
+    name: redis-net
     driver: overlay
 
 volumes:
